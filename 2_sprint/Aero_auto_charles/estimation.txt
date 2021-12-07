@@ -1,0 +1,36 @@
+{
+	"estimations": {
+		"car": {
+			"price": 18.2,
+			"duration": 0.0364
+		},
+		"walk": {
+			"price": 0,
+			"duration": 0.2225
+		},
+		"taxi": {
+			"price": 20.02,
+			"duration": 0.030333333333333334
+		},
+		"bike": {
+			"price": 2.67,
+			"duration": 0.07416666666666667
+		},
+		"scooter": {
+			"price": 4.8950000000000005,
+			"duration": 0.089
+		},
+		"drive": {
+			"price": 19.656000000000002,
+			"duration": 0.0364
+        },
+        "aero": {
+            "price": 3000,
+            "duration": 0.1
+        } 
+	},
+	"modes": {
+		"optimal": "car",
+		"fastest": "taxi"
+	}
+}
