@@ -33,6 +33,11 @@
 2. Work with PostgreSQL DBMS on a remote server
 3. Grep logs from the remote server via the terminal
 
+### Introduction to Automation ###
+Create few scripts using Puppeteer
 ### Diploma ###
-
+<div> Task 1: Testing theory </div>
+<div> Task 2: Web app "Yandex.Scooter"</div>
+<div>Task 3: Mobile app "Yandex.Scooter"</div>
+<div>Task 4: API of "Yandex.Scooter"</div>
 
