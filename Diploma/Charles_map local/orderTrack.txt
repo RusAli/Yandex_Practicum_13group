@@ -1,0 +1,22 @@
+{
+	"order": {
+		"id": 1,
+		"firstName": "Дарья",
+		"lastName": "Алимова",
+		"address": "г Москва, Алтуфьевское шоссе, д 1",
+		"metroStation": "2",
+		"phone": "+79854204751",
+		"rentTime": 5,
+		"deliveryDate": "2021-05-13T21:00:00.000Z",
+		"track": 954732,
+		"color": ["BLACK"],
+		"comment": "",
+		"cancelled": false,
+		"finished": false,
+		"inDelivery": false,
+"courierFirstName": "Kaneki",
+		"createdAt": "2021-04-19T19:57:53.219Z",
+		"updatedAt": "2021-04-19T19:57:53.219Z",
+		"status": 3
+	}
+}

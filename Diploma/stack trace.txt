@@ -1,0 +1,29 @@
+Build version: 2.0 
+Current date: 2021-04-17 18:47:15 
+Device: OnePlus HD1900 
+ 
+Stack trace:  
+java.lang.IllegalArgumentException: Order notification crash
+ at com.yandex.scooter.app.ui.main.MainActivity.onNewIntent(MainActivity.kt:87)
+ at android.app.Activity.performNewIntent(Activity.java:7834)
+ at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1473)
+ at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1491)
+ at android.app.ActivityThread.deliverNewIntents(ActivityThread.java:3590)
+ at android.app.ActivityThread.handleNewIntent(ActivityThread.java:3602)
+ at android.app.servertransaction.NewIntentItem.execute(NewIntentItem.java:53)
+ at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+ at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+ at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2123)
+ at android.os.Handler.dispatchMessage(Handler.java:107)
+ at android.os.Looper.loop(Looper.java:214)
+ at android.app.ActivityThread.main(ActivityThread.java:7710)
+ at java.lang.reflect.Method.invoke(Native Method)
+ at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+ at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+
+User actions: 
+2021-04-17 18:39:20: MainActivity created
+2021-04-17 18:39:20: MainActivity resumed
+2021-04-17 18:46:40: MainActivity paused
+2021-04-17 18:46:43: MainActivity resumed
+2021-04-17 18:47:14: MainActivity paused
